@@ -1,0 +1,95 @@
+body {
+    background-color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:midnightblue
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    padding: 18px 109px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+.active {
+    background-color: whitesmoke; 
+    color: black;
+    
+  }
+
+#ghost {
+  display: none;
+  height: 300px;
+  width: 280px;
+}
+
+#bio {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#classes {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+#meme {
+  display: none;
+  width: 400px;
+  height: 400px;
+
+}
+#hi {
+  text-align: center;
+}
+
+#kachow {
+  background-color: black;
+}
+
+#title {
+  text-align: center;
+}
+
+#tele {
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#batman {
+  margin-left: 0px;
+  height: 300px;
+  width: 200px;
+}
+
+#review {
+  font-size: large;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+}
